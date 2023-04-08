@@ -1,0 +1,13 @@
+/*Abdallah Ahmed
+  202106164*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string s;
+	cin >> s;
+	cout << "Hello, " << s;
+}
+
