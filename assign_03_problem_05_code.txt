@@ -1,0 +1,32 @@
+/* Abdallah Ahmed 
+ * 202106164
+ */
+import java.util.Scanner;
+public class Assignment2 {
+    public static void main(String[] args) {
+        Scanner SC = new Scanner(System.in);
+        int n = SC.nextInt();
+        while(n-->0)
+        {
+        int x , y ,sum=0;
+            x=SC.nextInt();
+            y=SC.nextInt();
+            int max,min;
+            if(x>y)
+            {
+                max=x;
+                min=y;
+            }
+            else
+            {
+                max=y;
+                min=x;
+            }
+            for(int j=min+1 ; j< max ; j++){
+                if( j % 2 ==1 )
+                    sum+=j;
+            }
+                System.out.println(sum);
+        }
+    }
+}
